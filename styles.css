@@ -18,6 +18,8 @@ nav{
     /* height: 60px; */
     text-align: center;
     font-family: Impact, serif;
+
+    height: 400px;
 }
 
 nav a{
@@ -26,11 +28,14 @@ nav a{
     font-size: 1.5em;
     padding: 15px;
     margin: 10px;
-    display: inline-block;
+    display: block;
     text-decoration: none;
 }
 nav a:hover{
     text-decoration: underline;
+}
+
+.wrapper{
 }
 
 /* Styles for hero or feature */
@@ -43,6 +48,8 @@ nav a:hover{
     /* background stuff above */
     /* moving text below */
     position: relative;
+    background-color: black;
+
 }
 .hero h2{
     position: absolute;
@@ -130,6 +137,18 @@ footer a{
 
         .flexItem:first-child{
           margin-right: 0;
+        }
+
+        .wrapper{
+          display: flex;
+        }
+
+        nav{
+            width: 30%;
+        }
+
+        .hero{
+          width: 70%;
         }
 
 }
