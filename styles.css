@@ -1,5 +1,5 @@
 body{
-    background:plum;
+    background:white;
     padding: 0;
     margin: 0;
     font-family: Helvetica, sans-serif;
@@ -14,17 +14,17 @@ body{
 }
 
 nav{
-    background: rgb(255, 255, 255, 0.3);
+    background: white;
     /* height: 60px; */
     text-align: center;
-    font-family: Impact, serif;
+    font-family: haettenschweiler, sans-serif;
 
     height: 400px;
 }
 
 nav a{
     text-align: center;
-    color: white;
+    color: black;
     font-size: 1.5em;
     padding: 15px;
     margin: 10px;
@@ -40,7 +40,7 @@ nav a:hover{
 
 /* Styles for hero or feature */
 .hero{
-    background-image: url("img/hair-2537564_1920.jpg");
+    background-image: url("hero-1.jpg");
     height: 400px;
     background-size: cover;
     background-repeat: no-no-repeat;
