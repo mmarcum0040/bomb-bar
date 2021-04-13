@@ -1,3 +1,8 @@
+@font-face{
+  font-family: 'GentyDemo-Regular';
+  src:url('GentyDemo-Regular.ttf');
+}
+
 body{
     background:lavenderblush;
     padding: 0;
