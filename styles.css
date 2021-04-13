@@ -15,12 +15,13 @@ body{
 }
 
 nav{
-    background: white;
+    background: rgba(235,235,235,0.7);
     /* height: 60px; */
     text-align: center;
-    font-family: haettenschweiler, sans-serif;
+    font-family: "GentyDemo-Regular", sans-serif;
 
     height: 400px;
+    width: 100%;
 }
 
 nav a{
@@ -37,21 +38,20 @@ nav a:hover{
 }
 
 .wrapper{
+  background-image: url("img/pink-bomb-2.jpg");
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-no-repeat;
+  background-position: right center;
 }
 
 /* Styles for hero or feature */
 .hero{
-    background-image: url("img/pink-bomb-2.jpg");
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-no-repeat;
-    background-position: right center;
     /* background stuff above */
     /* moving text below */
     position: relative;
-    background-color: black;
-
 }
+
 .hero h2{
     position: absolute;
     bottom: 20%;
@@ -133,7 +133,7 @@ width: 100%;
 }
 
 .social-media img{
-  width: 24.6%;
+  width: 100%;
   padding: 0;
   margin: 0;
 }
@@ -177,7 +177,8 @@ footer a{
         }
 
         nav{
-            width: 30%;
+            width: 18%;
+            max-width: 300px;
         }
 
         .hero{
@@ -189,6 +190,12 @@ footer a{
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+        }
+
+        .social-media img{
+          width: 24.6%;
+          padding: 0;
+          margin: 0;
         }
 
         .description{
