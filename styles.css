@@ -63,18 +63,6 @@ nav a:hover{
     right: 5%;
 }
 
-button{
-  position: absolute;
-  bottom: 8%;
-  right: 5%;
-  background: none;
-  padding: 5px;
-  border: 2px black solid;
-  color: white;
-  font-size: 1.3em;
-  border-radius: 5px;
-}
-
 /* styles for about hero or feature */
 .about-hero{
     background-image: url("");
@@ -122,6 +110,28 @@ img{
 h2{
   margin: 3.5%;
   text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-facebook {
+  background: #F97A7C;
+  color: white;
+}
+
+.fa-instagram {
+  background: #F97A7C;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #F97A7C;
+  color: white;
 }
 
 .icons{
