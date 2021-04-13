@@ -1,8 +1,9 @@
 body{
-    background:white;
+    background:lavenderblush;
     padding: 0;
     margin: 0;
     font-family: Helvetica, sans-serif;
+
 }
 
 .logo{
@@ -40,11 +41,11 @@ nav a:hover{
 
 /* Styles for hero or feature */
 .hero{
-    background-image: url("hero-1.jpg");
+    background-image: url("img/pink bomb 2.jpg");
     height: 400px;
     background-size: cover;
     background-repeat: no-no-repeat;
-    background-position: right;
+    background-position: right center;
     /* background stuff above */
     /* moving text below */
     position: relative;
@@ -64,7 +65,7 @@ button{
   background: none;
   padding: 5px;
   border: 2px black solid;
-  color: black;
+  color: white;
   font-size: 1.3em;
   border-radius: 5px;
 }
@@ -98,6 +99,13 @@ main{
   padding: 30px;
 }
 
+.description{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
 
 img{
     width: 100%;
@@ -105,6 +113,31 @@ img{
     margin: 1% auto;
     border: 0;
 }
+
+h2{
+  margin: 3.5%;
+  text-align: center;
+}
+
+.icons{
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-media{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
+.social-media img{
+  width: 24.6%;
+  padding: 0;
+  margin: 0;
+}
+
 
 
 footer{
@@ -151,13 +184,25 @@ footer a{
           width: 70%;
         }
 
+        .social-media{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        }
+
+        .description{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+        }
+
 }
 
 /* large screen styles below */
 @media screen and (min-width: 1300px){
 
-  img{
 
-  }
 
 }
