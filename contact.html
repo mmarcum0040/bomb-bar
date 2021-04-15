@@ -1,104 +1,77 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+    <head>
+        <meta charset="utf-8">
+        <title>Bomb Bar</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <style>
-    /* START MOBILE FORM STYLES */
-    .form-container{
-      margin: 20px auto;
-      width:90%;
-    }
-    form p{
-      margin-bottom:5px;
-    }
-    label{
-      display:block;
-    }
-    #newsletter input{
-      display:inline;
-      width:auto;
-    }
-    input{
-      /* FOR MOBILE WIDTH:100% */
-      width:100%;
-      padding:1.7%;
-      margin:1.5% 0;
-      font-size: 1em;
-      border-radius: 4px;
-      border:1px solid #ccc;
-      box-sizing: border-box;
-    }
-    textarea{
-      min-height:100px;
-      width: 100%;
-      padding: 2%;
-      margin: 1.5% 0;
-      font-size: 1em;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
-    }
-    button{
-      /* CHANGED COLORS bellow */
-      background: #45A99F;
-      border: 1px solid #45A99F;
+    </head>
+    <body>
 
-      /* Rounded corners */
-      border-radius: 4px;
+          <a href="index.html"><img class="logo" src="img/logo-pink-5.jpg" alt="logo">
+          <!-- Logo -->
 
-      /* Text color */
-      color:white;
-      margin-top: 3%;
-      margin-bottom: 3%;
-      padding:2% 4%;
-      font-size: 1em;
-    }
-    /* END MOBILE FORM STYLES */
-
-    @media only screen and (min-width: 1000px) {
-      /* START DESKTOP FORM STYLES */
-      .form-container{
-        /* CHANGE WIDTH TO YOUR PREFERENCE */
-        width:50%;
-      }
-      input{
-        width:60%;
-      }
-      button{
-        margin-top: 2%;
-        margin-bottom: 2%;
-      }
-    }
-</style>
-<!-- START OF FORM -->
-<div class="form-container">
-  <form action="thanks.html">
-       <h3>Contact Us</h3>
-       <p> Message us with any questions, tell us about your favorite camping spots, or let us know if you want to host an event. <br>
-       We love seeing everyone's setup as every campervan is unique, so send us a photo.</p>
-       <br>
-       <label>Your Name: <br>
-       <input type="text" id="name" name="name" required></label>
-
-       <label>Email: <br>
-       <input type="email" id="email" name="email" required></label>
-
-       <label>Message: <br>
-       <textarea id="message" required></textarea></label>
-
-       <label id="newsletter"> <input type="checkbox" class="cursor" id="news" name="news" checked> Receive our newsletters</label>
-
-       <button type="submit" class="cursor" value="Submit">Submit</button>
-
-   </form>
-</div> <!-- END OF CONTAINER DIV -->
-<!-- END OF FORM -->
-<!-- More information on forms see chapter 7 in our big book -->
+          <div class="wrapper">
 
 
-  </body>
+
+
+          <nav>
+              <a href="index.html">Home</a>
+              <a href="menu.html">Menu</a>
+              <a href="contact.html">Contact Us</a>
+          </nav>
+          <div class="hero">
+          </div>
+          <!-- hero -->
+        </div>
+        <!-- wrapper -->
+
+        <main>
+
+                <div class="description">
+                  <h2>Contact Us!</h2>
+                 </div>
+               </main>
+
+
+
+              <!-- START OF FORM -->
+              <!-- <h2>Contact Us</h2> -->
+              <div class="form-container">
+                <form action="#">
+              <!--     FORM ACTION will go to a FAKE Thank You page if you want to create one, OR remove it so hiting the submit button doesn't break the page -->
+                     <p> Message us with any questions, tell us about your favorite camping spots, or let us know if you want to host an event. <br>
+                     We love seeing everyone's setup as every campervan is unique, so send us a photo.</p>
+                     <br>
+                     <label>Your Name: <br>
+                     <input type="text" id="name" name="name" required></label>
+
+                     <label>Email: <br>
+                     <input type="email" id="email" name="email" required></label>
+
+                     <label>Message: <br>
+                     <textarea id="message" required></textarea></label>
+
+                     <label id="newsletter"> <input type="checkbox" class="cursor" id="news" name="news" checked> Receive our newsletters</label>
+
+                     <button type="submit" class="cursor" value="Submit">Submit</button>
+
+                 </form>
+              </div> <!-- END OF CONTAINER DIV -->
+              <!-- END OF FORM -->
+              <!-- More information on forms see chapter 7 in our HTML AND CSS book -->
+
+
+        <footer>
+          <p> &copy; 2021 Bomb Bar | <a href="#">Back to top</p>
+              <p><a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-instagram"></a>
+              <a href="#" class="fa fa-pinterest"></a>
+            </p>
+        </footer>
+
+    </body>
 </html>
