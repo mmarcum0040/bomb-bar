@@ -52,8 +52,6 @@ nav a:hover{
 
 /* Styles for hero or feature */
 .hero{
-    /* background stuff above */
-    /* moving text below */
     position: relative;
 }
 
@@ -134,11 +132,6 @@ h2{
   color: white;
 }
 
-.icons{
-  width: 20%;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .social-media{
 display: block;
