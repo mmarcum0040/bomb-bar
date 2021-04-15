@@ -1,70 +1,104 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>Bomb Bar</title>
-        <link rel="stylesheet" href="styles.css" type="text/css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
 
-    </head>
-    <body>
+  <style>
+    /* START MOBILE FORM STYLES */
+    .form-container{
+      margin: 20px auto;
+      width:90%;
+    }
+    form p{
+      margin-bottom:5px;
+    }
+    label{
+      display:block;
+    }
+    #newsletter input{
+      display:inline;
+      width:auto;
+    }
+    input{
+      /* FOR MOBILE WIDTH:100% */
+      width:100%;
+      padding:1.7%;
+      margin:1.5% 0;
+      font-size: 1em;
+      border-radius: 4px;
+      border:1px solid #ccc;
+      box-sizing: border-box;
+    }
+    textarea{
+      min-height:100px;
+      width: 100%;
+      padding: 2%;
+      margin: 1.5% 0;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    button{
+      /* CHANGED COLORS bellow */
+      background: #45A99F;
+      border: 1px solid #45A99F;
 
-          <a href="index.html"><img class="logo" src="img/logo-pink-5.jpg" alt="logo">
-          <!-- Logo -->
+      /* Rounded corners */
+      border-radius: 4px;
 
-          <div class="wrapper">
+      /* Text color */
+      color:white;
+      margin-top: 3%;
+      margin-bottom: 3%;
+      padding:2% 4%;
+      font-size: 1em;
+    }
+    /* END MOBILE FORM STYLES */
+
+    @media only screen and (min-width: 1000px) {
+      /* START DESKTOP FORM STYLES */
+      .form-container{
+        /* CHANGE WIDTH TO YOUR PREFERENCE */
+        width:50%;
+      }
+      input{
+        width:60%;
+      }
+      button{
+        margin-top: 2%;
+        margin-bottom: 2%;
+      }
+    }
+</style>
+<!-- START OF FORM -->
+<div class="form-container">
+  <form action="thanks.html">
+       <h3>Contact Us</h3>
+       <p> Message us with any questions, tell us about your favorite camping spots, or let us know if you want to host an event. <br>
+       We love seeing everyone's setup as every campervan is unique, so send us a photo.</p>
+       <br>
+       <label>Your Name: <br>
+       <input type="text" id="name" name="name" required></label>
+
+       <label>Email: <br>
+       <input type="email" id="email" name="email" required></label>
+
+       <label>Message: <br>
+       <textarea id="message" required></textarea></label>
+
+       <label id="newsletter"> <input type="checkbox" class="cursor" id="news" name="news" checked> Receive our newsletters</label>
+
+       <button type="submit" class="cursor" value="Submit">Submit</button>
+
+   </form>
+</div> <!-- END OF CONTAINER DIV -->
+<!-- END OF FORM -->
+<!-- More information on forms see chapter 7 in our big book -->
 
 
-
-
-          <nav>
-              <a href="index.html">Home</a>
-              <a href="menu.html">Menu</a>
-              <a href="contact.html">Contact Us</a>
-          </nav>
-          <div class="hero">
-          </div>
-          <!-- hero -->
-        </div>
-        <!-- wrapper -->
-
-        <main>
-
-                <div class="description">
-                  <h2>About</h2>
-                  <p>Founded by Kenzie Marcum and Kalyn Hall, Bomb Bar is a concept that arose from the collective mindset of the inspiring women around us.  This brand represents the best of all of us.  The inspiration has always been here and now we hope to share it with you! </p>
-
-                  <p>Bomb Bar is a bath, body, and skincare company inspired by fruity daiquiris.  We also serve daiquiris to make your experience more fun! We have a few different flavors that go along with each of our bath products.  We are also devoted to creating  fresh, ethically sourced, cruelty-free, vegetarian, handmade, low-waste, and effective products.  You can order from our site and have it shipped to you, order in-store pick-up, or come in and have a great time!</p>
-                 </div>
-               </main>
-
-
-
-                   <h2>Social Media
-                     <a href="#" class="fa fa-facebook"></a>
-                     <a href="#" class="fa fa-instagram"></a>
-                     <a href="#" class="fa fa-pinterest"></a>
-                   </h2>
-
-
-
-
-
-              <div class="social-media">
-                <img src="img/peaches-gift-box.jpg"  alt="gift box"/>
-                <img src="img/popsicle.jpg" alt="popsicle"/>
-                <img src="img/strawberry-daq-2.jpg" alt="daiquiri"/>
-                <img src="img/strawbs-daqs.jpg" alt="strawberry daiquiri"/>
-              </div>
-
-
-
-
-
-        <footer>
-          <p> &copy; 2021 Bomb Bar | <a href="#">Back to top</p>
-        </footer>
-
-    </body>
+  </body>
 </html>
