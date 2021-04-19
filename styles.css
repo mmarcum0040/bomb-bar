@@ -8,6 +8,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: Helvetica, sans-serif;
+    font-size: 16px;
 
 }
 
@@ -43,7 +44,7 @@ nav a:hover{
 }
 
 .wrapper{
-  background-image: url("img/pink-bomb-2.jpg");
+  background-image: url("img/pink-bubbles.jpeg");
   height: 400px;
   background-size: cover;
   background-repeat: no-no-repeat;
@@ -83,11 +84,11 @@ main{
 }
 
 .flexItem{
-  flex-basis: 300px;
+  flex-basis: 90%;
   flex-grow: 2;
-  margin: 2px 20px;
-  background: rgb(255, 255, 255, 0.5);
-  padding: 30px;
+  margin: 2px 10px;
+  background: white;
+  padding: 10px;
 }
 
 .description{
@@ -97,6 +98,32 @@ main{
   width: 80%;
 }
 
+.flavor{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.flavor img{
+  float: right;
+  width: 150px;
+  display: inline;
+}
+
+.flavor p{
+  float: left;
+  width: 299px;
+  font-size: 0.9em;
+}
+
+.flavor::after{
+  clear:both;
+  display: table;
+  content: "";
+}
+
+.daiquiris{
+  padding: auto 20px;
+}
 
 img{
     width: 100%;
@@ -228,9 +255,26 @@ footer a{
             display: inline;
         }
 
+        .flavor img{
+          width: 100px;
+          padding-left: 3px;
+        }
+
+        .flavor p{
+          width: 100%;
+        }
+
+        .description{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 95%;
+        }
 
         .flexItem{
-          margin: 20px;
+          margin: 1%;
+          padding: 20px;
+          flex-basis: 44%;
         }
 
         .flexItem:first-child{
@@ -263,12 +307,7 @@ footer a{
           margin: 0;
         }
 
-        .description{
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          width: 50%;
-        }
+
 
         /*         START DESKTOP FORM STYLES */
      .form-container{
