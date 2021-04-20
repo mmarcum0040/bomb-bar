@@ -47,13 +47,8 @@ nav a:hover{
   background-image: url("img/pink-bomb-2.jpg");
   height: 400px;
   background-size: cover;
-  background-repeat: no-no-repeat;
+  background-repeat: no-repeat;
   background-position: right center;
-}
-
-/* Styles for hero or feature */
-.hero{
-
 }
 
 .hero h2{
@@ -67,7 +62,7 @@ nav a:hover{
   background-image: url("img/pink-bubbles.jpeg");
   height: 400px;
   background-size: cover;
-  background-repeat: no-no-repeat;
+  background-repeat: no-repeat;
   background-position: right center;
 }
 /* end about styles ----------- */
@@ -121,6 +116,18 @@ main{
   padding: auto 20px;
 }
 
+button{
+  position: fixed;
+  bottom: 8%;
+  right: 5%;
+  background: none;
+  padding: 5px;
+  border: 2px black solid;
+  color: black;
+  font-size: 1.3em;
+  border-radius: 5px;
+}
+
 img{
     width: 100%;
     display: block;
@@ -131,6 +138,7 @@ img{
 h2{
   margin: 3.5%;
   text-align: center;
+  color: #F97A7C;
 }
 
 .fa {
@@ -228,8 +236,8 @@ footer a{
     }
     button{
       /* CHANGED COLORS bellow */
-      background: #45A99F;
-      border: 1px solid #45A99F;
+      background: #F97A7C;
+      border: 1px solid white;
       /* Rounded corners */
       border-radius: 4px;
       /* Text color */
@@ -318,6 +326,7 @@ footer a{
        margin-top: 2%;
        margin-bottom: 2%;
      }
+
 
 }
 
