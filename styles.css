@@ -65,6 +65,14 @@ nav a:hover{
   background-repeat: no-repeat;
   background-position: right center;
 }
+
+.contact-wrapper{
+  background-image: url("img/heart-letter.jpeg");
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
 /* end about styles ----------- */
 
 main{
@@ -116,17 +124,6 @@ main{
   padding: auto 20px;
 }
 
-button{
-  position: fixed;
-  bottom: 8%;
-  right: 5%;
-  background: none;
-  padding: 5px;
-  border: 2px black solid;
-  color: black;
-  font-size: 1.3em;
-  border-radius: 5px;
-}
 
 img{
     width: 100%;
@@ -177,6 +174,45 @@ width: 100%;
   margin: 0;
 }
 
+button{
+  bottom: 8%;
+  right: 5%;
+  background: #F97A7C;
+  padding: 10px 20px;
+  border: 2px white solid;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+.buy button{
+  position: fixed;
+  background: #F97A7C;
+  border: 2px solid white;
+  /* Rounded corners */
+  border-radius: 4px;
+  /* Text color */
+  color:white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding:10px 20px;
+  font-size: 1.1em;
+}
+
+.contact button{
+  /* CHANGED COLORS bellow */
+  background: #F97A7C;
+  border: 2px solid white;
+  /* Rounded corners */
+  border-radius: 4px;
+  /* Text color */
+  color:white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding:10px 20px;
+  font-size: 1.1em;
+}
+
 
 
 footer{
@@ -192,6 +228,13 @@ footer a{
         color: white;
 }
 
+/* MAP STYLES */
+.map{
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
 
 /* START MOBILE FORM STYLES */
     .form-container{
@@ -234,19 +277,7 @@ footer a{
       border-radius: 4px;
       box-sizing: border-box;
     }
-    button{
-      /* CHANGED COLORS bellow */
-      background: #F97A7C;
-      border: 1px solid white;
-      /* Rounded corners */
-      border-radius: 4px;
-      /* Text color */
-      color:white;
-      margin-top: 20px;
-      margin-bottom: 20px;
-      padding:10px 20px;
-      font-size: 1.1em;
-    }
+
 
 
 /* medium size below */
@@ -311,6 +342,10 @@ footer a{
           margin: 0;
         }
 
+        .map{
+
+        }
+
 
 
         /*         START DESKTOP FORM STYLES */
@@ -322,9 +357,19 @@ footer a{
         /* CHANGE WIDTH TO YOUR PREFERENCE */
        width:60%;
      }
-     button{
-       margin-top: 2%;
-       margin-bottom: 2%;
+     .contact button{
+       background: #F97A7C;
+       border: 1px solid white;
+       /* Rounded corners */
+       border-radius: 4px;
+       /* Text color */
+       color:white;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       padding:10px 20px;
+       font-size: 1.1em;
+       /* margin-top: 2%;
+       margin-bottom: 2%; */
      }
 
 
