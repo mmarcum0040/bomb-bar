@@ -44,7 +44,7 @@ nav a:hover{
 }
 
 .wrapper{
-  background-image: url("img/pink-bomb-2.jpg");
+  background-image: url("img/buncha-bb.jpeg");
   height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ nav a:hover{
 
 /* styles for about hero or feature */
 .menu-wrapper{
-  background-image: url("img/pink-swirls.jpeg");
+  background-image: url("img/pink-melt.jpeg");
   height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
