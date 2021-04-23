@@ -59,7 +59,7 @@ nav a:hover{
 
 /* styles for about hero or feature */
 .menu-wrapper{
-  background-image: url("img/pink-bubbles.jpeg");
+  background-image: url("img/pink-swirls.jpeg");
   height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -172,6 +172,20 @@ width: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
+}
+
+.video{
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.video iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 button{
