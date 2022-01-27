@@ -7,9 +7,30 @@ body{
     background:lavenderblush;
     padding: 0;
     margin: 0;
-    font-family: Helvetica, sans-serif;
+    font-family: avenir, sans-serif;
     font-size: 16px;
 
+}
+
+a{
+  color:#f97a7c;
+}
+
+a:hover{
+  color:#b91d31;
+}
+
+img{
+    width: 100%;
+    display: block;
+    margin: 1% auto;
+    border: 0;
+}
+
+h2{
+  margin: 3.5%;
+  text-align: center;
+  color: #F97A7C;
 }
 
 .logo{
@@ -59,7 +80,7 @@ nav a:hover{
 
 /* styles for about hero or feature */
 .menu-wrapper{
-  background-image: url("img/pink-melt.jpeg");
+  background-image: url("img/goodpinkbomb.jpeg");
   height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,7 +88,7 @@ nav a:hover{
 }
 
 .contact-wrapper{
-  background-image: url("img/heart-letter.jpeg");
+  background-image: url("img/orangestore.jpg");
   height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -124,19 +145,6 @@ main{
   padding: auto 20px;
 }
 
-
-img{
-    width: 100%;
-    display: block;
-    margin: 1% auto;
-    border: 0;
-}
-
-h2{
-  margin: 3.5%;
-  text-align: center;
-  color: #F97A7C;
-}
 
 .fa {
   padding: 10px;
@@ -317,7 +325,7 @@ footer a{
           display: block;
           margin-left: auto;
           margin-right: auto;
-          width: 95%;
+          width: 50%;
         }
 
         .flexItem{
